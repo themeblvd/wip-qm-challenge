@@ -50,7 +50,7 @@ module.exports = {
              * JavaScript files.
              */
             {
-                test: /\.(svg|png|jpg|gif)$/,
+                test: /\.(png|jpg|gif)$/,
                 issuer: /\.js/,
                 use: [
                     {
@@ -59,6 +59,28 @@ module.exports = {
                             outputPath: './assets/img',
                             name: '[name].[ext]',
                             publicPath: '/assets/img',
+                        },
+                    },
+                ],
+            },
+            /*
+             * Process svg files that were imported from
+             * JavaScript files.
+             */
+            {
+                test: /\.svg$/,
+                use: [
+                    {
+                        loader: 'babel-loader',
+                        options: {
+                            babelrc: false,
+                            presets: ['@babel/preset-react'],
+                        },
+                    },
+                    {
+                        loader: 'react-svg-loader',
+                        options: {
+                            jsx: true,
                         },
                     },
                 ],
@@ -105,7 +127,7 @@ module.exports = {
              * CSS file.
              */
             {
-                test: /\.(svg|png|jpg|gif)$/,
+                test: /\.(png|jpg|gif)$/,
                 issuer: /\.scss$/,
                 use: [
                     {
