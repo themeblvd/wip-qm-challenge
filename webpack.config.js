@@ -5,6 +5,7 @@ const path = require('path');
 module.exports = {
     mode: process.env.NODE_ENV,
     entry: './src/index.js',
+    devtool: 'source-map',
     output: {
         path: path.resolve(__dirname, 'public'),
         filename: './assets/js/app.js',
@@ -21,7 +22,7 @@ module.exports = {
          * Generate index.html page for the app.
          */
         new HtmlWebpackPlugin({
-            title: 'My App',
+            title: 'Quantum Metric Code Challenge',
             template: './src/index.html',
         }),
     ],
@@ -106,11 +107,22 @@ module.exports = {
                 test: /\.(scss|css)$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    'css-loader',
-                    'postcss-loader',
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            sourceMap: true,
+                        },
+                    },
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            sourceMap: true,
+                        },
+                    },
                     {
                         loader: 'sass-loader',
                         options: {
+                            sourceMap: true,
                             sassOptions: {
                                 outputStyle:
                                     process.env.NODE_ENV === 'production'

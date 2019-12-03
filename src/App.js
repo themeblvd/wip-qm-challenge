@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './assets/scss/main.scss'; // Must come before components.
+import './assets/scss/app.scss'; // Must come before components.
 import Header from './components/Header';
 import Dashboard from './components/Dashboard';
 
