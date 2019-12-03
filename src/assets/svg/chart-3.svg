@@ -1,0 +1,27 @@
+<svg id="SvgjsSvg2757" viewBox="0 0 384 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;">
+    <defs id="SvgjsDefs2863">
+        <clipPath id="gridRectMaskm4nip7pn">
+            <rect id="SvgjsRect2868" width="386.5" height="102.5" x="-1.25" y="-1.25" rx="0" ry="0" fill="#ffffff" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0"></rect>
+        </clipPath>
+        <clipPath id="gridRectMarkerMaskm4nip7pn">
+            <rect id="SvgjsRect2869" width="386" height="102" x="-1" y="-1" rx="0" ry="0" fill="#ffffff" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0"></rect>
+        </clipPath>
+        <linearGradient id="SvgjsLinearGradient2875" x1="0" y1="0" x2="0" y2="1">
+            <stop id="SvgjsStop2876" stop-opacity="0.5" stop-color="rgba(255,159,67,0.5)" offset="0"></stop>
+            <stop id="SvgjsStop2877" stop-opacity="0.2" stop-color="rgba(255,245,236,0.2)" offset="0.8"></stop>
+            <stop id="SvgjsStop2878" stop-opacity="0.2" stop-color="rgba(255,245,236,0.2)" offset="1"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SvgjsG2871" class="apexcharts-area-series apexcharts-plot-series">
+        <g id="SvgjsG2872" class="apexcharts-series">
+            <path id="SvgjsPath2879" d="M 0 100L 0 60C 22.4 60 41.6 10 64 10C 86.4 10 105.6 80 128 80C 150.4 80 169.6 10 192 10C 214.4 10 233.6 90 256 90C 278.4 90 297.6 40 320 40C 342.4 40 361.6 80 384 80C 384 80 384 80 384 100M 384 80z" fill="url(#SvgjsLinearGradient2875)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="0" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskm4nip7pn)" pathTo="M 0 100L 0 60C 22.4 60 41.6 10 64 10C 86.4 10 105.6 80 128 80C 150.4 80 169.6 10 192 10C 214.4 10 233.6 90 256 90C 278.4 90 297.6 40 320 40C 342.4 40 361.6 80 384 80C 384 80 384 80 384 100M 384 80z" pathFrom="M -1 160L -1 160L 64 160L 128 160L 192 160L 256 160L 320 160L 384 160"></path>
+            <path id="SvgjsPath2880" d="M 0 60C 22.4 60 41.6 10 64 10C 86.4 10 105.6 80 128 80C 150.4 80 169.6 10 192 10C 214.4 10 233.6 90 256 90C 278.4 90 297.6 40 320 40C 342.4 40 361.6 80 384 80" fill="none" fill-opacity="1" stroke="#ff9f43" stroke-opacity="1" stroke-linecap="butt" stroke-width="2.5" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskm4nip7pn)" pathTo="M 0 60C 22.4 60 41.6 10 64 10C 86.4 10 105.6 80 128 80C 150.4 80 169.6 10 192 10C 214.4 10 233.6 90 256 90C 278.4 90 297.6 40 320 40C 342.4 40 361.6 80 384 80" pathFrom="M -1 160L -1 160L 64 160L 128 160L 192 160L 256 160L 320 160L 384 160"></path>
+            <g id="SvgjsG2873" class="apexcharts-series-markers-wrap">
+                <g class="apexcharts-series-markers">
+                    <circle id="SvgjsCircle2893" r="0" cx="64" cy="10" class="apexcharts-marker w141yvs6m no-pointer-events" stroke="#ffffff" fill="#ff9f43" fill-opacity="1" stroke-width="2" stroke-opacity="0.9" default-marker-size="0"></circle>
+                </g>
+            </g>
+            <g id="SvgjsG2874" class="apexcharts-datalabels"></g>
+        </g>
+    </g>
+</svg>

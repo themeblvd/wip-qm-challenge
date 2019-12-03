@@ -1,27 +1,54 @@
-.app {
-  background: #101010;
-  color: #fff;
-  text-align: center;
+//
+// Header
+//
 
-  header {
-    padding: 40px;
+.app-header {
+  background-color: $bg-inverse;
+  color: $white;
+  padding: ($element-spacing / 2) 0;
+
+  > .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: $content-width;
   }
-}
 
-.components-example {
-  background: #61dafb;
-  color: #101010;
-  padding: 50px;
-  text-align: center;
-
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  // Logo
+  .logo {
+    fill: currentColor;
+    height: 40px;
   }
-  code {
-    background: #f0f2f1;
-    color: #f4645f;
-    padding: 1px 5px;
-    border-radius: 3px;
+
+  // User Menu
+  .user-menu {
+    display: flex;
+    align-items: center;
+  }
+  .user-menu > li {
+    margin: 0 ($element-spacing / 2);
+  }
+  .avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .notification {
+    position: relative;
+  }
+  .notification .count {
+    background-color: $primary;
+    border-radius: 50%;
+    color: $font-inverse-color;
+    display: block;
+    font-size: 10px;
+    line-height: 1;
+    min-width: 1.8em;
+    padding: 0.3em;
+    position: absolute;
+    top: -0.7em;
+    right: -0.6em;
+    text-align: center;
   }
 }

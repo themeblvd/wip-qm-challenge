@@ -1,0 +1,14 @@
+.dashboard {
+  margin: 0 auto;
+  padding: 0 ($element-spacing / 2);
+  max-width: $content-width;
+
+  .stat-cards {
+    display: flex;
+    margin: ($element-spacing / 2) (-$element-spacing);
+  }
+  .stat-card {
+    flex: 1;
+    margin: $element-spacing / 2;
+  }
+}

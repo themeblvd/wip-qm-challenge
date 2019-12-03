@@ -1,0 +1,62 @@
+//
+// Card Base
+//
+
+.card {
+  background-color: $bg-surface;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+  padding: $element-spacing;
+}
+
+//
+// Stat Cards
+//
+
+.stat-card {
+  .badge {
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: $element-spacing / 2;
+    padding: 10px;
+  }
+  .value {
+    display: block;
+    font-weight: $font-weight-bold;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  .chart-wrapper {
+    margin: -$element-spacing;
+    margin-top: 0;
+  }
+
+  // Colors
+  &.color-purple {
+    .badge {
+      background-color: rgba($purple, 0.15);
+      color: $purple;
+    }
+  }
+  &.color-green {
+    .badge {
+      background-color: rgba($green, 0.15);
+      color: $green;
+    }
+  }
+  &.color-red {
+    .badge {
+      background-color: rgba($red, 0.15);
+      color: $red;
+    }
+  }
+  &.color-orange {
+    .badge {
+      background-color: rgba($orange, 0.15);
+      color: $orange;
+    }
+  }
+}

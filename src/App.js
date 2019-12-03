@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import './assets/scss/main.scss'; // Must come before components.
-import logo from './assets/img/logo.svg';
-import Example from './components/Example'; //
+import Header from './components/Header';
+import Dashboard from './components/Dashboard';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="app">
-        <header>
-          <img src={logo} alt="My React App" width="100" height="100" />
-          <h1>My React App</h1>
-        </header>
-        <Example />
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="app">
+                <Header />
+                <div className="app-content">
+                    <Dashboard />
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;

@@ -1,1 +1,51 @@
-// Variables here...
+//
+// Fonts and Colors
+//
+
+// Base Colors
+$blue: #22a7f0;
+$dark-blue: #1b2731;
+$green: #5ec478;
+$orange: #f3a356;
+$purple: #716ae8;
+$red: #da5f5b;
+
+// Grey Scale
+$white: #fff;
+$grey-100: #fbfbfb;
+$grey-200: #f2f2f2;
+$grey-300: #e0e6ed;
+$grey-400: #ccd0d9;
+$grey-500: #626262;
+$grey-600: #2c2c2c;
+$black: #000;
+
+// Semantic Colors
+$primary: $blue;
+$error: $red;
+$warning: $orange;
+$success: $green;
+
+// Background Colors
+$bg: $grey-100;
+$bg-surface: $white;
+$bg-inverse: $dark-blue;
+
+// Text Colors
+$font-color: $grey-500;
+$font-dark-color: $grey-600;
+$font-inverse-color: $white;
+
+// Fonts
+$font-size-base: 14px;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+//
+// Spacing
+//
+
+$content-width: 1580px;
+$border-radius: 4px;
+$element-spacing: 20px;
