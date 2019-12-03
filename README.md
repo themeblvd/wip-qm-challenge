@@ -12,7 +12,7 @@ _Note: Browsersync will automatically find an available port and open it up in y
 
 ## Project Structure
 
-- `public/` - **Final build, for both development and production (see notes below).**
+- `public/` - **Final build, for both development and production.**
   - `assets/` - All static assets, organized by filetype.
   - `index.html` - The single static webpage that should be served.
 - `src/` - **React app source files.**
