@@ -22,16 +22,6 @@ _Note: Browsersync will automatically find an available port and open it up in y
   - `index.html` - HTML template for single page.
 - `server.js` - Runs the development server.
 
-**Why is there no separate `/build` directory, like with [create-react-app](https://github.com/facebook/create-react-app)?**
-
-Because this project structure assumes no server-side functionality, I've made the decision to simplify all compiling to a single `/public` directory. However, the result of the files here does depend on if we're in development or production.
-
-**And how does that effect the development to production workflow?**
-
-Running `npm start` or `npm run build` will produce the development state of the static application files within `/public` while you're working. And when you're ready to push your changes into production, you can run `npm run build:prod`, which will re-build the files within `/public`. Then, just move those production files off to where they need to go.
-
-Another approach. Alternately, if you're using a service like [Netlify](https://www.netlify.com/), you can incorporate this into your continuous integration. Whether your project exists locally on your computer or it's receiving changes on Netlify from your Github repo, the `/public` directory is what's served. So, for example, from you local machine you can run `npm run build`, but on Netlify, you'll tell it to run `npm run build:prod` instead.
-
 ## Terminal Commands
 
 ### Primary Commands
